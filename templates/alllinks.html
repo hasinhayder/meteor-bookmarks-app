@@ -1,0 +1,28 @@
+<template name="alllinks">
+    {{>ls}}
+    <div id="linkcontainer">
+        {{#each links}}
+        <div class="row">
+            <div class="col-md-2">
+                {{#if active}}
+                <div class="new">
+                <i class="animated rollIn fa fa-thumbs-o-up"></i>
+                </div>
+                {{/if}}
+            </div>
+            <div class="col-md-8">
+                <div class="link">
+                    <a target="_blank"  href="{{url}}"><h3 class="animated fadeInUp">{{name}} <i class="fa fa-external-link"></i> </h3></a>
+                    <p class="animated fadeInUp">{{description}}</p>
+                    <p class="url animated fadeInUp">
+                        tags: {{alltags}}
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        {{/each}}
+    </div>
+
+</template>
+

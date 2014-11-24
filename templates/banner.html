@@ -1,0 +1,28 @@
+<template name="banner">
+    <div id="banner">
+        <h1>Badass List of Essential jQuery Plugins</h1>
+        <h2>Curated By <a href="https://github.com/hasinhayder" target="_blank">Hasin Hayder</a> from <a href="http://leevio.com" target="_blank">Leevio</a></h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="tags">
+                        {{#each tags}}
+                            <li class="{{isactive}}"> {{name}} </li>
+                        {{/each}}
+                        <!--<li>Hello </li>-->
+                        <!--<li>images</li>-->
+                        <!--<li>slider</li>-->
+                        <!--<li>gallery</li>-->
+                        <!--<li class="active">text</li>-->
+                        <!--<li>font</li>-->
+                        <!--<li>ui</li>-->
+                        <!--<li>form</li>-->
+                        <!--<li>utility</li>-->
+                        <!--<li>others</li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

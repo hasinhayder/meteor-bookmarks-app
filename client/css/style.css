@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+
+@import url(http://fonts.googleapis.com/css?family=Coda:400,800);
+/** Variables **/
+/** Mixins **/
+.p0 {
+  padding: 0px;
+}
+.m0 {
+  margin: 0px;
+}
+/** Mixins End **/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Coda', cursive;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 0.35px;
+  overflow-y: scroll;
+  min-height: 1000px;
+}
+#banner {
+  min-height: 540px;
+  background-color: #dddddd;
+  background-image: url(/img/stardust.png);
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+#banner a {
+  color: #e7e4d5;
+  text-decoration: none;
+}
+#banner a:hover {
+  color: #ff4242;
+}
+#banner h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #e7e4d5;
+  font-family: 'Coda', cursive;
+  word-spacing: 3px;
+}
+#banner h2 {
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e7e4d5;
+  font-family: 'Coda', cursive;
+  word-spacing: 2px;
+  margin-bottom: 100px;
+}
+#banner ul.tags {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+#banner ul.tags li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  line-height: 40px;
+  color: #ff4242;
+  cursor: pointer;
+  font-size: 20px;
+}
+#banner ul.tags li:hover {
+  color: #FFF3DB;
+}
+#banner ul.tags li.active {
+  color: #FFF3DB;
+  font-size: 40px;
+}
+.links {
+  margin-top: 60px;
+}
+.links a:hover {
+  text-decoration: none;
+}
+.links a:hover h3 {
+  color: #E6324B;
+}
+.links .new {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.links .new i {
+  font-size: 30px;
+  color: #E6324B;
+}
+.links h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #1D1313;
+  background-color: #E7EDEA;
+  padding: 15px;
+  border-radius: 3px;
+}
+.links h3 i {
+  color: #fff;
+  display: none;
+}
+.links .link {
+  padding: 10px;
+  padding-left: 20px;
+  border-left: 5px solid #C02942;
+  margin-bottom: 30px;
+}
+.links .link p {
+  margin-top: 10px;
+  color: #353634;
+  line-height: 34px;
+  font-size: 15px;
+}
+.links .link p.url {
+  font-style: italic;
+  color: #777;
+}
